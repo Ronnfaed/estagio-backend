@@ -12,7 +12,7 @@ app.use("/files", express.static("files"))
 // Conexão ao MongoDB
 // Alterar a MongoURL para a sua chave, caso continue usando MongoDB
 
-const mongoUrl = "[MongoDB-Key]";
+const mongoUrl = "mongodb+srv://fergomessousa1300:g6Ma4EoUKLXF1vmL@estagio.bcdvzej.mongodb.net/?retryWrites=true&w=majority&appName=Estagio";
 
 mongoose
     .connect(mongoUrl, {
